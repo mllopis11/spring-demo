@@ -12,7 +12,7 @@
 
     <groupId>mike.spring.demo</groupId>
     <artifactId>spring-samples</artifactId>
-    <name>1.0-SNAPSHOT</name>
+    <name>${project.artifactId}</name>
     <description>Spring samples parent project</description>
     <packaging>pom</packaging>
     

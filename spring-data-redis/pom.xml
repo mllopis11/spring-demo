@@ -10,7 +10,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>demo-spring-redis</artifactId>
+    <artifactId>spring-demo-redis</artifactId>
     <description>Spring Redis sample</description>
     <packaging>jar</packaging>
     

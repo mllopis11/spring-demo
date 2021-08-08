@@ -1,0 +1,28 @@
+spring:
+  main:
+    log-startup-info: true
+  application:
+    name: demo-spring-redis
+    
+server:
+  address: localhost
+  port: 9200
+  servlet:
+    context-path: /demo/data-redis/api
+
+logging:
+  level:
+    mike.bootstrap: INFO
+    mike.demo: DEBUG
+    web: INFO
+
+springdoc:
+  api-docs:
+     enabled: true
+  swagger-ui:
+    enabled: true
+    display-request-duration: true
+    path: /swagger-ui.html
+    operationsSorter: alpha
+    tagsSorter: alpha
+    doc-expansion: list
