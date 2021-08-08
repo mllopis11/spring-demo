@@ -1,2 +1,2 @@
-# Spring-boot & Spring-cloud exmaples
+# Spring-boot & Spring-cloud examples
 
