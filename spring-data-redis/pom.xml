@@ -5,21 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>mike.bootstrap</groupId>
-        <artifactId>bootstrap-parent</artifactId>
+        <groupId>mike.spring.demo</groupId>
+        <artifactId>spring-samples</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../bootstrap-parent</relativePath>
     </parent>
 
-    <groupId>mike.spring.demo</groupId>
     <artifactId>demo-spring-redis</artifactId>
-    <name>${project.artifactId}</name>
     <description>Spring Redis sample</description>
     <packaging>jar</packaging>
     
     <properties>
-        <application.name>Spring-Demo</application.name>
-        <module.name>Spring-Redis</module.name>
+        <module.name>Spring-Data-Redis</module.name>
     </properties>
     
     <dependencies>
