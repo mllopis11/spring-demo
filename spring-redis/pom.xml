@@ -11,13 +11,31 @@
         <relativePath>../bootstrap-parent</relativePath>
     </parent>
 
-    <groupId>mike.bootstrap.samples</groupId>
-    <artifactId>sample-parent</artifactId>
+    <groupId>mike.spring.demo</groupId>
+    <artifactId>demo-spring-redis</artifactId>
     <name>${project.artifactId}</name>
-    <description>Samples parent project</description>
-    <packaging>pom</packaging>
+    <description>Spring Redis sample</description>
+    <packaging>jar</packaging>
     
     <properties>
         <application.name>Spring-Demo</application.name>
+        <module.name>Spring-Redis</module.name>
     </properties>
+    
+    <dependencies>
+         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.zalando</groupId>
+            <artifactId>problem-spring-web-starter</artifactId>
+        </dependency>
+    </dependencies>
 </project>
