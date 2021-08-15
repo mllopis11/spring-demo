@@ -13,13 +13,13 @@
     <artifactId>spring-demo-redis</artifactId>
     <description>Spring Redis sample</description>
     <packaging>jar</packaging>
-    
+
     <properties>
         <module.name>Spring-Data-Redis</module.name>
     </properties>
-    
+
     <dependencies>
-         <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -28,10 +28,15 @@
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
         </dependency>
-        
+
         <dependency>
             <groupId>org.zalando</groupId>
             <artifactId>problem-spring-web-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
         </dependency>
     </dependencies>
 </project>
